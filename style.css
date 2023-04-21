@@ -1,0 +1,145 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+
+
+body {
+  font-size: 18px;
+  color: rgb(3, 3, 10);
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  darkseagreen;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: rgb(29, 11, 165);
+}
+
+h2 {
+  font-weight: 600;
+  color: rgb(48, 25, 217);
+  font-size: 22PX;
+}
+
+h1,h2,h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-white {
+  background-color: rgb(233, 248, 243);
+  text-align: center;
+  border-radius: 10px;
+  padding: 40px;
+  padding-top: 10px;
+  margin: 30px auto;
+  box-shadow: 0px 10px 20px rgb(67, 220, 67);
+}
+
+.card-white img {
+  box-shadow: 0PX 10PX 20px #24598b;
+  border-radius: 10%;
+}
+
+
+.container2 {
+  width: 700px;
+  margin: 5px auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-2 {
+  text-align: left;
+  padding: 10px;
+  margin: 5px auto;
+  box-shadow: 0px 10px 20px rgb(67, 220, 67);
+  background-color: rgb(233, 248, 243);
+  border-radius: 10px;
+}
+
+.card-3 {
+  background-color: rgb(233, 248, 243);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px auto;
+  box-shadow: 0px 10px 20px rgb(67, 220, 67);
+}
+
+.card-3 img {
+  height: 70px;
+}
+
+.container {
+  width: 700px;
+  margin: 10px auto;
+}
+
+#Willy_profile {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  ;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.btn-blue:hover {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+
+
+img {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+
+#intro {
+  margin-bottom: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: grey;
+  letter-spacing: 30px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
